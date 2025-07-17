@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Modern Portfolio - Puttan kumar</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#about" aria-label="About Me section">About</a>
+            <a href="#work" aria-label="My Work section">My Work</a>
+            <a href="#services" aria-label="My Services section">My Services</a>
+            <a href="#skills" aria-label="Skills section">Skills</a>
+            <a href="#projects" aria-label="Projects section">Projects</a>
+            <a href="#contact" aria-label="Contact section">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" role="banner">
+        <img src="image/bach4.jpg" alt="Profile picture of Puttan kumar" class="profile-pic" loading="lazy" />
+        <h3>Puttan kumar</h3>
+        <p>Creative Frontend Developer & Designer crafting modern, responsive websites and web apps.</p>
+    </section>
+
+    <section id="about" class="container" tabindex="-1">
+        <h2>About Me</h2>
+        <p>Hello! I’m Puttan kumar, a passionate frontend developer with a knack for creating sleek and efficient user
+            interfaces. I love turning ideas into beautiful, interactive digital experiences. When I’m not coding, I
+            enjoy photography and exploring the outdoors.</p>
+    </section>
+
+    <section id="work" class="container" tabindex="-1" aria-label="My Work">
+        <h2>My Work</h2>
+        <div class="work-item">
+            <h3>Frontend Developer</h3>
+            <p>Developed and maintained multiple client-facing web applications using React and Vue.js, improving user
+                engagement by 30%.</p>
+        </div>
+        <div class="work-item">
+            <h3>Python Development</h3>
+            <p>Designed beautiful and responsive websites for small businesses and startups, focusing on user experience
+                and brand identity.</p>
+        </div>
+        <div class="work-item">
+            <h3>Web Design</h3>
+            <p>Provided consultation on UI/UX improvements for SaaS platforms, resulting in increased customer
+                satisfaction and retention.</p>
+        </div>
+    </section>
+
+    <section id="services" class="container" tabindex="-1" aria-label="My Services">
+        <h2>My Services</h2>
+        <div class="services-list">
+            <div class="service-card" role="region" aria-label="Web Design Service">
+                <h3>Web Design</h3>
+                <p>Creating sleek, modern, and user-friendly websites tailored to your brand and audience.</p>
+            </div>
+            <div class="service-card" role="region" aria-label="Web Development Service">
+                <h3>Web Development</h3>
+                <p>Building fast, responsive web applications using the latest frontend technologies like React, Vue,
+                    and JavaScript.</p>
+            </div>
+            <div class="service-card" role="region" aria-label="UI/UX Consulting Service">
+                <h3>Python Developer</h3>
+                <p>Improving user engagement and satisfaction through thoughtful design and usability enhancements.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container" tabindex="-1" aria-label="Skills Circular Form">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <!-- Skill: HTML5 -->
+            <div class="skill-circle" role="group" aria-labelledby="skill-html-label"
+                aria-describedby="skill-html-desc">
+                <svg class="skill-svg" viewBox="0 0 100 100" aria-hidden="true">
+                    <circle class="bg" cx="50" cy="50" r="45"></circle>
+                    <circle class="progress html" cx="50" cy="50" r="45"></circle>
+                </svg>
+                <div class="skill-percent" id="skill-html-desc">90%</div>
+                <div class="skill-label" id="skill-html-label">HTML5</div>
+            </div>
+            <!-- Skill: CSS3 -->
+            <div class="skill-circle" role="group" aria-labelledby="skill-css-label" aria-describedby="skill-css-desc">
+                <svg class="skill-svg" viewBox="0 0 100 100" aria-hidden="true">
+                    <circle class="bg" cx="50" cy="50" r="45"></circle>
+                    <circle class="progress css" cx="50" cy="50" r="45"></circle>
+                </svg>
+                <div class="skill-percent" id="skill-css-desc">85%</div>
+                <div class="skill-label" id="skill-css-label">CSS3</div>
+            </div>
+            <!-- Skill: JavaScript -->
+            <div class="skill-circle" role="group" aria-labelledby="skill-js-label" aria-describedby="skill-js-desc">
+                <svg class="skill-svg" viewBox="0 0 100 100" aria-hidden="true">
+                    <circle class="bg" cx="50" cy="50" r="45"></circle>
+                    <circle class="progress js" cx="50" cy="50" r="45"></circle>
+                </svg>
+                <div class="skill-percent" id="skill-js-desc">75%</div>
+                <div class="skill-label" id="skill-js-label">JavaScript</div>
+            </div>
+            <!-- Skill: React.js -->
+            <div class="skill-circle" role="group" aria-labelledby="skill-react-label"
+                aria-describedby="skill-react-desc">
+                <svg class="skill-svg" viewBox="0 0 100 100" aria-hidden="true">
+                    <circle class="bg" cx="50" cy="50" r="45"></circle>
+                    <circle class="progress react" cx="50" cy="50" r="45"></circle>
+                </svg>
+                <div class="skill-percent" id="skill-react-desc">70%</div>
+                <div class="skill-label" id="skill-react-label">React.js</div>
+            </div>
+            <!-- Skill: Python -->
+            <div class="skill-circle" role="group" aria-labelledby="skill-python-label"
+                aria-describedby="skill-python-desc">
+                <svg class="skill-svg" viewBox="0 0 100 100" aria-hidden="true">
+                    <circle class="bg" cx="50" cy="50" r="45"></circle>
+                    <circle class="progress python" cx="50" cy="50" r="45"></circle>
+                </svg>
+                <div class="skill-percent" id="skill-python-desc">60%</div>
+                <div class="skill-label" id="skill-python-label">Python</div>
+            </div>
+            <!-- Skill: Power BI -->
+            <div class="skill-circle" role="group" aria-labelledby="skill-powerbi-label"
+                aria-describedby="skill-powerbi-desc">
+                <svg class="skill-svg" viewBox="0 0 100 100" aria-hidden="true">
+                    <circle class="bg" cx="50" cy="50" r="45"></circle>
+                    <circle class="progress powerbi" cx="50" cy="50" r="45"></circle>
+                </svg>
+                <div class="skill-percent" id="skill-powerbi-desc">50%</div>
+                <div class="skill-label" id="skill-powerbi-label">Java</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container" tabindex="-1">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <article class="project-card" role="group" aria-label="Project: Portfolio Website">
+                <img src="image/project1.png"
+                    alt="Screenshot of Portfolio Website project" />
+                <h3>Portfolio Website</h3>
+                <p>Designed and developed a personal portfolio website showcasing projects, blogs, and skills with
+                    responsive design and smooth animations.</p>
+                <a href="https://github.com/PUTTAN-KUMAR/portfolio" target="_blank" rel="noopener noreferrer">View on
+                    GitHub</a>
+            </article>
+            <article class="project-card" role="group" aria-label="Project: Todo App">
+                <img src="image/project2.png"
+                    alt="Screenshot of Todo App project" />
+                <h3>Sarkari result website</h3>
+                <p>Created a React-based todo app with drag-and-drop features and local storage persistence for
+                    productivity management.</p>
+                <a href="https://github.com/PUTTAN-KUMAR/todo-app" target="_blank" rel="noopener noreferrer">View on
+                    GitHub</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="container" tabindex="-1">
+        <section id="contact" class="container">
+            <h2>Contact Me</h2>
+            <div class="social-icons">
+                <p><i class="fa-solid fa-paper-plane"></i>puttankumar76@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7880601607</p>
+                <a href="https://facebook.com."><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/K79065Kumar?t=TZh9a1PX-OhGtpOIlWosEg&s=09"><i
+                        class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/pranjul_verma7880?igsh=MTNyNmk3OTV5OWhrZg=="><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a
+                    href="https://www.linkedin.com/in/puttan-kumar-927684298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/PUTTAN-KUMAR"><i class="fa-brands fa-github"></i></a>
+                <a href="Main resume (10).docx" class="btn2">Download resume</a>
+        
+            </div>
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder=" Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" placeholder="Your Message" required></textarea>
+                <button type="submit">submit</button>
+            </form>
+        </section>
+    
+        <div class="contact-links" role="list" aria-label="Direct contact links">
+            <a href="https://www.instagram.com/pranjul_verma7880?igsh=MTNyNmk3OTV5OWhrZg==" target="_blank"
+                rel="noopener noreferrer" aria-label="Instagram profile">
+                <!-- Instagram SVG icon -->
+                <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path
+                        d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zM12 7a5 5 0 015 5 5 5 0 01-10 0 5 5 0 015-5zm0 1.5a3.5 3.5 0 00-3.5 3.5 3.5 3.5 0 007 0 3.5 3.5 0 00-3.5-3.5zm5.5-.75a1 1 0 110 2 1 1 0 010-2z" />
+                </svg>
+                Instagram
+            </a>
+            <a href="https://github.com/PUTTAN-KUMAR" target="_blank" rel="noopener noreferrer"
+                aria-label="GitHub profile">
+                <!-- GitHub SVG icon -->
+                <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12 2C6.477 2 2 6.486 2 12.02c0 4.43 2.865 8.191 6.84 9.523.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.605-3.37-1.343-3.37-1.343-.454-1.155-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.34-2.22-.253-4.555-1.113-4.555-4.95 0-1.093.39-1.988 1.029-2.688-.103-.254-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026a9.564 9.564 0 012.5-.336 9.56 9.56 0 012.5.336c1.91-1.296 2.75-1.027 2.75-1.027.546 1.378.202 2.396.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.847-2.337 4.693-4.566 4.942.358.308.678.916.678 1.848 0 1.335-.012 2.413-.012 2.74 0 .268.18.58.688.48A10.023 10.023 0 0022 12.019C22 6.486 17.523 2 12 2z" />
+                </svg>
+                GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/puttan-kumar-927684298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                <!-- LinkedIn SVG icon -->
+                <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path
+                        d="M19 3A2 2 0 0121 5v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14zm-9.667 14H7.333v-6.667h2v6.667zm-1-7.5a1.167 1.167 0 11-.002-2.334A1.167 1.167 0 018.333 9.5zm10.5 7.5h-2v-3.333c0-.833-.667-1.167-1.167-1.167-.667 0-1.167.5-1.167 1.167V17h-2v-6.667h2v.917c.333-.5.833-1.084 2.084-1.084 1.584 0 2.917 1.084 2.917 3.334V17z" />
+                </svg>
+                LinkedIn
+            </a>
+            <a href="https://www.puttankumar76@gmail.com" aria-label="Send email to puttan kumar">
+                <!-- Email SVG icon -->
+                <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path
+                        d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 2l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z" />
+                </svg>
+                Email
+            </a>
+        </div>
+        <p id="contactformdesc" style="color: #bbb; font-size: 0.9rem; margin-top: 8px; text-align: center;">
+            Or fill out the form above and I will get back to you as soon as possible.
+        </p>
+    </section>
+
+    <footer>
+        &copy; 2025 puttan kumar. Crafted with ❤️ and modern web technologies.
+    </footer>
+
+    <script>
+       var tablinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-Contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabContents of tabContents) {
+                tabContents.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+        // Animate circular progress bars on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            const progressCircles = document.querySelectorAll('.skill-circle .progress');
+            progressCircles.forEach(circle => {
+                const parent = circle.parentElement.parentElement;
+                const percentText = parent.querySelector('.skill-percent').textContent;
+                const percent = parseInt(percentText.replace('%', ''), 10);
+                const r = circle.r.baseVal.value;
+                const circumference = 2 * Math.PI * r;
+                circle.style.strokeDasharray = circumference;
+                const offset = circumference * (1 - percent / 100);
+                circle.style.strokeDashoffset = circumference;
+                // Trigger animation by setting dashoffset to offset
+                setTimeout(() => {
+                    circle.style.transition = 'stroke-dashoffset 1.5s ease-out';
+                    circle.style.strokeDashoffset = offset;
+                }, 300);
+            });
+        });
+    </script>
+
+        <!-- // const scriptURL = 'https://script.google.com/macros/s/AKfycbyYtx3aAytSD2XumlSmmInAp5LV0LX13HdzpXhGo1Gn61E1miSg4kSjF_EDSVdzcYCWwQ/exec' -->
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyYtx3aAytSD2XumlSmmInAp5LV0LX13HdzpXhGo1Gn61E1miSg4kSjF_EDSVdzcYCWwQ/exec'
+            const form = document.forms['submit-to-google-sheet']
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => console.log('Success!', response))
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+          
+</body>
+</html>
+
